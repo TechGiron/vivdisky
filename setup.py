@@ -15,9 +15,9 @@ DESCRIPTION = 'An Unofficial Asynchronous Python version of Mdisk API wrapper'
 setup(
     name="vivdisky",
     version=VERSION,
-    author="Kevin Nadar",
+    author="Tech Giron",
     license="MIT",
-    author_email="jesikamaraj@gmail.com",
+    author_email="rahulrathee52402@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
