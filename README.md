@@ -3,11 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kevinnadar22/mdisky">
+  <a href="https://github.com/TechGiron/vivdisky">
     <img src="https://play-lh.googleusercontent.com/7ByFpdTmtc3JCmTUCUKQTmQChqbvlk79JSnyt27ORfTKK-51m_kyFs3B6YE7xRzLM2k=rw" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Mdisky</h3>
+  <h3 align="center">Vivdisky</h3>
 
   <p align="center">
    An Unofficial Python version of Mdisk API wrapper
@@ -46,20 +46,20 @@ pip install --upgrade mdisky
 ## Usage
 
 ```python
-from mdisky import Mdisk
+from vivdisky import Mdisk
 import asyncio
 
 mdisk = Mdisk('us5CqX8oandALtQ86FLq')
 
 async def main():
-    link = await mdisk.convert('https://mdisk.me/convertor/16x9/H331KO')
+    link = await mdisk.convert('https://vivdisk.com/convertor/play/1DWoKjvHH43M')
     print(link)
 
 asyncio.run(main())
 ```
 
 ```python
-Output: https://mdisk.me/convertor/16x9/gvh9fI
+Output: https://vivdisk.com/convertor/play/9oJ9jAD3CwwlFws
 ```
 
 
