@@ -9,7 +9,7 @@ with codecs.open(os.path.join(here, "package.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 VERSION = '0.0.6'
-DESCRIPTION = 'An Unofficial Asynchronous Python version of Mdisk API wrapper'
+DESCRIPTION = 'An Unofficial Asynchronous Python version of Vivdisky API wrapper'
 
 # Setting up
 setup(
