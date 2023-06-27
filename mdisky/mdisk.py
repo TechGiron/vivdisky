@@ -177,6 +177,6 @@ class Mdisk:
         :return: True if the link is a valid mdisk link, False otherwise
         """
         domain = urlparse(link).netloc
-        if 'mdisk.me' in domain:
+        if 'vivdisk.com' in domain:
             return True
         return False
