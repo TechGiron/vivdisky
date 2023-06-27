@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-
 here = os.path.abspath(os.path.dirname(__file__))
 
 with codecs.open(os.path.join(here, "package.md"), encoding="utf-8") as fh:
@@ -22,9 +21,9 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['requests',],
+    install_requires=['requests'],
     url="https://github.com/TechGiron/vivdisky",
-    keywords=['python', 'mdisk', 'mdisk wrapper', 'mdisk convert', 'earn money '],
+    keywords=['python', 'mdisk', 'mdisk wrapper', 'mdisk convert', 'earn money'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
