@@ -29,7 +29,7 @@ class Mdisk:
         :param silently_fail: If True, the function will return the given link instead of raising an exception, only if the function raise an exception,
         defaults to False
         :type silently_fail: bool (optional)
-        :return: The link to the file on mdisk.
+        :return: The link to the file on vivdisk.
         """
         is_mdisk_link = await self.is_mdisk_link(link)
         if is_mdisk_link:
