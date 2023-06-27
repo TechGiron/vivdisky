@@ -13,7 +13,7 @@ class Mdisk:
     
     def __init__(self, api_key:str):
         self.__api_key = api_key
-        self.__base_url = 'https://diskuploader.mypowerdisk.com/v1/tp/cp'
+        self.__base_url = 'https://vivdisk.com/convertor/play'
 
         if not self.__api_key:
             raise Exception("API key not provided")
