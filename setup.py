@@ -13,7 +13,7 @@ DESCRIPTION = 'An Unofficial Asynchronous Python version of Mdisk API wrapper'
 
 # Setting up
 setup(
-    name="mdisky",
+    name="vivdisky",
     version=VERSION,
     author="Kevin Nadar",
     license="MIT",
@@ -23,7 +23,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=['requests',],
-    url="https://github.com/kevinnadar22/mdisky",
+    url="https://github.com/TechGiron/vivdisky",
     keywords=['python', 'mdisk', 'mdisk wrapper', 'mdisk convert', 'earn money '],
     classifiers=[
         "Development Status :: 1 - Planning",
