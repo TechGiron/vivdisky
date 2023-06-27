@@ -78,7 +78,7 @@ class Mdisk:
         defaults to True
         :return: A text of converted links
         """
-        links = re.findall(r'https?://mdisk.me[^\s`!()\[\]{};:".,<>?«»“”‘’]+', text)
+        links = re.findall(r'https?://vivdisk.com[^\s`!()\[\]{};:".,<>?«»“”‘’]+', text)
         converted_links = await self.bulk_convert(links, silently_fail=silently_fail)
 
         for i, mdisk_link in enumerate(converted_links):
